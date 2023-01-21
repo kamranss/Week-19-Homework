@@ -4,47 +4,43 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background: rgb(235, 235, 228);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: auto;
-}
+} */
 
 .main_Container {
-    position: fixed;
-    margin: 10px;
+    /* position: fixed;
     width: 100%;
     max-width: 500px;
     min-height: 600px;
-    background: #ffff;
+    background: #ffff; */
     /* display: grid;
     grid-template-columns: 300fr 300fr; */
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
     box-shadow: 0 40px 50px grey;
+    /* display: flex; /* it allows to bring objects to center*/
+	/* flex-wrap: wrap; */
+	/* justify-content: center; it performs action to bring object center. if there is flex */ */
+   
 }
-.sub_Container{
-    position: fixed;
-    margin: 10px;
-    width: 100%;
-    max-width: 500px;
-    min-height: 600px;
-    height: 400px;
-    width: 200px;
-
-}
-.box1 {
-    width: 100px;
-	height: 200px;
-	margin: 40px;
-	transition: all 1s;
-    display: flex; /* it allows to bring objects to center*/
-	flex-wrap: wrap;
-	justify-content: center; /* it performs action to bring object center. if there is flex */
+.main_Container .box1 {
+    margin: 0 auto;
+    width: 500px;
+	height: 400px;
+    border: solid grey 2px;
+    /* display: flex; /* it allows to bring objects to center*/
+    /* align-items: center; */
+	/* justify-content: center; it performs action to bring object center. if there is flex */
 }
 
-.image_1{
+/* .box1 img{
     width: 1300px;
     height: 400px;
     margin: 30px;
@@ -53,22 +49,34 @@ body {
     object-fit: cover;
 	margin: 40px;
 	transition: all 1s;
+} */
+.box1 img{
+    
+    height: 100%;
+    width: 100%;
+    align-items: center;
+	justify-content: center; 
+	transition: all 1s;
 }
 
 .box2 {
-    padding-top: 90px;
-    padding-left: 100px;
-    width: 500px;
-	height: 300px;
+    margin: 49px;
+    width: 700px;
+	height: 200px;
+    border: solid grey 2px;
     /* display: flex; /* it allows to bring objects to center*/	 */
 	/* justify-content: center; it performs action to bring object center. if there is flex */
 }
 
-.Head{
+.box2 .Head{
     padding: 40px;
     padding-bottom: 40px;
      display: flex; /* it allows to bring objects to center*/	
-	justify-content: center; /* it performs action to bring object center. if there is flex */
-    
+	justify-content: center; /* it performs action to bring object center. if there is flex */ 
+}
+.box2 .main_Form{
+    width: 150px;
+	height: 200px;
+
 }
    
