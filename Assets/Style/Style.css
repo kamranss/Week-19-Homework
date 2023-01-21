@@ -23,7 +23,7 @@
     grid-template-columns: 300fr 300fr; */
     height: 800px;
     width: 800px;
-    margin: 25px auto;
+    margin: 10px auto;
     box-shadow: 0 40px 50px grey;
     /* display: flex; /* it allows to bring objects to center*/
 	/* flex-wrap: wrap; */
@@ -33,7 +33,7 @@
 .main_Container .box1 {
     margin: 0 auto;
     width: 500px;
-	height: 400px;
+	height: 370px;
     border: solid grey 2px;
     /* display: flex; /* it allows to bring objects to center*/
     /* align-items: center; */
@@ -59,24 +59,38 @@
 	transition: all 1s;
 }
 
-.box2 {
-    margin: 49px;
+.main_Container .box2 {
+    margin: 10px;
+    margin-left: 49px;
     width: 700px;
-	height: 200px;
+	height: 240px;
     border: solid grey 2px;
     /* display: flex; /* it allows to bring objects to center*/	 */
 	/* justify-content: center; it performs action to bring object center. if there is flex */
 }
 
-.box2 .Head{
-    padding: 40px;
-    padding-bottom: 40px;
-     display: flex; /* it allows to bring objects to center*/	
+.main_Container .box2 .Head{
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px; 
+    display: flex; /* it allows to bring objects to center*/	
 	justify-content: center; /* it performs action to bring object center. if there is flex */ 
+    border: solid grey 2px;
+    height: 100px;
+    width: 300px;
 }
-.box2 .main_Form{
-    width: 150px;
-	height: 200px;
+.main_Container .box2 .main_Form{
+    /* width: 150px;
+	height: 100px; */
+    margin-left: 200px;
+    padding: 30px;
+    display: flex; /* it allows to bring objects to center*/	
+	justify-content: center; /* it performs action to bring object center. if there is flex */ 
+    border: solid grey 2px;
+    height: 100px;
+    width: 300px;
+    
 
 }
    
